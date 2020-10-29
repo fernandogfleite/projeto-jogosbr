@@ -2,6 +2,8 @@
 body, header, nav, img, ul, a, main, div, section, h2, p, footer{
     margin: 0;
     padding: 0;
+    
+    
     border: none;
     outline: none;
     box-sizing: border-box;
@@ -88,6 +90,10 @@ img {
     padding: 20px;
 }
 
+.anuncio-item{
+    padding: 40px;
+}
+
 /* INFORMAÇÕES */
 
 .main{
@@ -122,7 +128,6 @@ h2{
     font-weight: larger;
     font-size: 2em;
     line-height: normal;
-    
     
 }
 
