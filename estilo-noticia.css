@@ -79,11 +79,10 @@ img {
 .aside {
     grid-area: aside;
     display: grid;
-    background: #49274a65;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    float: right;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    float: left;
     grid-gap: 20px;
     padding: 20px;
 }
