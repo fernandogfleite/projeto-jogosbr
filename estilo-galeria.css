@@ -1,0 +1,45 @@
+.estrutura{
+  grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+.main {
+  max-width: 1200px;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+
+/* ESTILO DA GALERIA*/
+
+.titulo h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+div.row {
+  display: block;
+  width: 100%;
+}
+
+div.row ul{
+  list-style-type: none;
+  margin: 2px;
+}
+
+li.card {
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
+}
+
+li.card img {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.45s;
+}
+
+li.card img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.075);
+}
