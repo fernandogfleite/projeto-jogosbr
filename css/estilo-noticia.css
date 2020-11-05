@@ -48,10 +48,6 @@ img {
     grid-template-columns: 1fr auto;
     align-items: center;
   }
-  
-.logo {
-    max-width: 200px;
-}
 
 .header nav ul {
     display: flex;
@@ -104,6 +100,7 @@ img {
     padding: 30px;
     grid-gap: 30px;
 }
+
 
 /* ESTILOS DAS INFORMAÇÕES */
 
