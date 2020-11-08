@@ -48,10 +48,6 @@ img {
     grid-template-columns: 1fr auto;
     align-items: center;
   }
-  
-.logo {
-    max-width: 200px;
-}
 
 .header nav ul {
     display: flex;
@@ -177,3 +173,11 @@ p {
 @media (max-width:720px){
     
 }
+
+/*
+@media only screen and (max-width: 900px) {
+  .aside {
+    display: none;
+  }
+}
+*/

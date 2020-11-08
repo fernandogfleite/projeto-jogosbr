@@ -25,10 +25,8 @@ a {
 }
   
 img {
-    max-width: 800px;
-    max-height: 444.333;
-    margin-left: 2.38%;
-    margin-right: 2.38%;
+    max-width: 100%;
+    max-height: 100%;
 }
 img.logo{
     max-width: 100%;
@@ -55,10 +53,6 @@ img.logo{
     grid-template-columns: 1fr auto;
     align-items: center;
   }
-  
-.logo {
-    max-width: 200px;
-}
 
 .header nav ul {
     display: flex;
@@ -111,6 +105,7 @@ img.logo{
     padding: 30px;
     grid-gap: 30px;
 }
+
 
 /* ESTILOS DAS INFORMAÇÕES */
 
