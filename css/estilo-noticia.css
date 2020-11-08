@@ -25,7 +25,14 @@ a {
 }
   
 img {
+    max-width: 800px;
+    max-height: 444.333;
+    margin-left: 2.38%;
+    margin-right: 2.38%;
+}
+img.logo{
     max-width: 100%;
+    margin: auto;
 }
 
 /* GRID */
@@ -169,4 +176,8 @@ p {
     padding-right: 5px;
     margin: auto;
     
+}
+
+@media (max-width: 720px){
+
 }
