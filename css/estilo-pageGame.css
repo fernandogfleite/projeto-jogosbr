@@ -7,7 +7,7 @@
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-
+/* IFRAMES */
 
 div.video-trailer{
     position: relative;
@@ -27,6 +27,7 @@ div.widget-steam iframe{
     width: 72%;
 }
 
+/* REQUISITOS */
 
 section.info{
     background-image: linear-gradient(135deg, #49274a, #94618e);;
@@ -35,6 +36,16 @@ section.info{
     font-family: 'Trispace', sans-serif;
 
 }
+
+div.req_esquerda{
+    width: 50%;
+    float: left;
+    border-style: dashed;
+    border-color: grey;
+    border-width: 0px 1px 0px 0px;
+    margin-right: 15px;
+}
+
 .info ul {
     font-size: 1.5em;
     list-style-type: disc;
@@ -43,6 +54,7 @@ section.info{
 
 section.info ul li{
     margin: 5px 0px;
+    color: white;
 }
 
 .info strong{
@@ -52,15 +64,4 @@ section.info ul li{
 .info ul li strong{
     font-size: 1em;
     color:rgb(235, 226, 226);
-}
-.info ul li{
-    color: white;
-}
-div.req_esquerda{
-    width: 50%;
-    float: left;
-    border-style: dashed;
-    border-color: grey;
-    border-width: 0px 1px 0px 0px;
-    margin-right: 15px;
 }
