@@ -87,7 +87,7 @@ img {
 }
 
 .anuncio-item{
-    padding: 40px;
+    padding: 20px;
 }
 
 /* INFORMAÇÕES */
@@ -144,7 +144,7 @@ p {
 .footer p {
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 30px 30px 5px 30px;
 }
 
 .footer nav{
@@ -174,10 +174,20 @@ p {
     
 }
 
-/*
-@media only screen and (max-width: 900px) {
-  .aside {
-    display: none;
+
+@media only screen and (max-width: 1000px) {
+  .estrutura {
+    display: grid;
+    grid-template-areas: "header" "main" "aside" "footer";
+  }
+  .aside{
+      display: flex;
   }
 }
-*/
+
+@media only screen and (max-width: 500px) {
+    .aside {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
