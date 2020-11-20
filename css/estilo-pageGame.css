@@ -26,6 +26,12 @@ div.widget-steam iframe{
     border-radius: 10px;
     width: 72%;
 }
+div.widget-steam img{
+    display: inline-block;
+    position: relative;
+    top: -115px;
+}
+
 
 /* REQUISITOS */
 
