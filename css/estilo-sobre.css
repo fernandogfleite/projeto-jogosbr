@@ -60,3 +60,16 @@
 #baixo {
     border-bottom: 0px;
 }
+
+/* IMAGEM DE FUNDO */
+
+.main {
+    background-color: white;
+    max-width: 700px;
+}
+
+.estrutura {
+    background-image: url(../img/fundo-escuro-claro-v2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
