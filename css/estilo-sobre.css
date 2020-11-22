@@ -1,18 +1,74 @@
-table{
-    border: 1px solid black;
+/* RETIRANDO ASIDE */
+
+.estrutura{
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "footer footer footer";
+      max-height: 100%; 
+    background-image: url(../img/fundo-escuro-claro-v2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ESTILIZAÇÃO DA TABELA */
+
+.t_cont caption {
+    font-size: 20px;
+    background-color:  #633a5f;
+    color: white;
+    padding: 10px;
+}
+
+.t_cont {
     border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
 }
-td, th{
-    border: 0.1px solid black;
+
+.t_cont td, th{
+    font-size: 15px;
+    padding: 10px;
 }
-th{
-    background:  rgb(218, 179, 215);
+
+.t_cont th{
+    border-top: 1px dotted #af62aa;
+    background-color:  #633a5f;
+    color: white;
 }
-.teste tr:nth-child(even){
-    background: rgb(218, 179, 215);
+
+/* CORES ZEBRADAS */
+
+.t_cont tr:nth-child(even){
+    background: rgb(236, 183, 227);
 }
-.teste tr:nth-child(odd){
-    background: #d492d0;
+
+.t_cont tr:nth-child(odd){
+    background: #af62aa;
+}
+
+/* BORDAS NAS LINHAS DE JOGO */
+
+.linha_jogos {
+    background-color: rgb(236, 183, 227);
+    border: 1px dotted white;
+    padding: 2px;
+}
+
+/* GAMBIARRAZINHA PARA RETIRAR BORDAS */
+#cima {
+    border-top: 0px;
+}
+
+#baixo {
+    border-bottom: 0px;
+}
+
+/* IMAGEM DE FUNDO */
+
+.main {
+    background-color: white;
+    max-width: 700px;
 }
 .button {
     background-color: #49274a;
