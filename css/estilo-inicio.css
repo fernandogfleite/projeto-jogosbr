@@ -88,6 +88,8 @@ img {
 
 .anuncio-item{
     padding: 20px;
+    width: fit-content;
+    margin: auto;
 }
 
 /* INFORMAÇÕES */
@@ -170,11 +172,6 @@ p {
     
 }
 
-@media (max-width:720px){
-    
-}
-
-
 @media only screen and (max-width: 1000px) {
   .estrutura {
     display: grid;
@@ -188,6 +185,25 @@ p {
 @media only screen and (max-width: 500px) {
     .aside {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header nav a {
+        font-size: 0.75em;
+    }
+
+    .header li + li {
+        margin-left: 20px;
     }
 }
