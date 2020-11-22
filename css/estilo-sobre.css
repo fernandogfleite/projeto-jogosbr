@@ -6,6 +6,9 @@
       "main main main"
       "footer footer footer";
       max-height: 100%; 
+    background-image: url(../img/fundo-escuro-claro-v2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ESTILIZAÇÃO DA TABELA */
@@ -67,9 +70,22 @@
     background-color: white;
     max-width: 700px;
 }
-
-.estrutura {
-    background-image: url(../img/fundo-escuro-claro-v2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.button {
+    background-color: #49274a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: grab;
+  }
+  div.botaogit{
+      display: inline-block;
+      margin: auto;
+  }
+  .button:hover {opacity: 1}
