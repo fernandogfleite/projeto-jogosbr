@@ -12,14 +12,21 @@ https://github.com/fernandogfleite/projeto-jogosbr
 
 ## Github Pages 
 
+https://fernandogfleite.github.io/projeto-jogosbr/inicio.html
+
 ## Tabela
 
 Onde pode ser encontrado: sobre.html
 
 Conteudo: nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
 
+## Background
 
-## Sobre nos
+Onde pode ser encontrado: sobre.html
+
+conteudo: Background personalizado com imagens de joysticks
+
+## Sobre
 
 Onde pode ser encontrado: sobre.html
 
