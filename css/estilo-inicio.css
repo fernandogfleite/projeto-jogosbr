@@ -98,7 +98,7 @@ img {
     display: grid;
     grid-area: main;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 30px;
     grid-gap: 30px;
 }
