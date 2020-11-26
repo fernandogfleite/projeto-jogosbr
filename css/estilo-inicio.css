@@ -182,7 +182,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .aside {
         display: grid;
         grid-template-columns: 100%;
@@ -190,6 +190,10 @@ p {
 
     .logo {
         display: none;
+    }
+
+    .header li + li {
+        margin-left: auto;
     }
 }
 
@@ -200,10 +204,6 @@ p {
     }
 
     .header nav a {
-        font-size: 0.75em;
-    }
-
-    .header li + li {
-        margin-left: 20px;
+        font-size: 0.85em;
     }
 }
