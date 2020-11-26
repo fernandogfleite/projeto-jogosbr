@@ -125,7 +125,12 @@
 
 /* RESPONSIVIDADE */
 
-
+@media screen and (max-width: 400px){
+    .t_cont td, th {
+        font-size: 1.2em;
+        padding: 5px;
+    }
+}
 
 @media screen and (max-width: 520px){
     .main {
