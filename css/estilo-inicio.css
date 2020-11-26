@@ -88,6 +88,8 @@ img {
 
 .anuncio-item{
     padding: 20px;
+    width: fit-content;
+    margin: auto;
 }
 
 /* INFORMAÇÕES */
@@ -96,7 +98,7 @@ img {
     display: grid;
     grid-area: main;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 30px;
     grid-gap: 30px;
 }
@@ -170,11 +172,6 @@ p {
     
 }
 
-@media (max-width:720px){
-    
-}
-
-
 @media only screen and (max-width: 1000px) {
   .estrutura {
     display: grid;
@@ -185,9 +182,28 @@ p {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .aside {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header li + li {
+        margin-left: auto;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header nav a {
+        font-size: 0.85em;
     }
 }
