@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Início - JogosBR</title>
       <link rel="stylesheet" href="css/estilo-inicio.css">
+      <link rel="stylesheet" href="css/estilo-cadastro.css">
       <link rel="shortcut icon" href="img/logos/icone.ico" type="image/x-icon">
       <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300;700&display=swap" rel="stylesheet">
   </head>
@@ -46,7 +47,131 @@
       
       </aside>
 
-      <main>
+      <main class="main">
+
+        <div id="formulario">
+
+          <h1>Cadastro de usuário</h1>
+
+          <form id="cadastro" method="POST"> 
+
+            <h2>Dados Pessoais</h2>
+
+            <div>
+              <label for="nome">Nome: </label>
+              <input type="text" id="nome">
+            </div>
+
+            <div>
+              <label for="email">E-mail: </label>
+              <input type="email" id="email">
+            </div>
+
+            <div>
+              <label for="senha">Senha: </label>
+              <input type="password" id="senha">
+            </div>
+
+            <div>
+              <label for="nasc">Data de nascimento: </label>
+              <input type="date" id="nasc">
+            </div>
+
+            <div>
+              <fieldset>
+                <legend>Sexo</legend>
+
+                <input type="radio" id="masc" name="sexo">
+                <label for="masc">Masculino</label><br>
+                
+                <input type="radio" id="fem" name="sexo">
+                <label for="fem">Feminino</label><br>
+                
+                <input type="radio" id="nb" name="sexo">
+                <label for="nb">Não-binário</label>
+              </fieldset>
+            </div>
+
+            <h2>Preferências</h2>
+
+            <div>
+              <label for="gen">Gênero favotito: </label>
+              <select id="gen">
+                <option value="">Escolha uma opção</option>
+                <option value="A/A">Ação/Aventura</option>
+                <option value="L">Luta</option>
+                <option value="TS">Tiro/Shoter</option>
+                <option value="RPG">Role-Playing Game</option>
+                <option value="C/G">Construção/Gerenciamento</option>
+                <option value="VV">Vida Virtual</option>
+                <option value="M/R">Música/Ritmo</option>
+                <option value="E">Esportes</option>
+                <option value="SV">Simulação de veículo</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="jogabilidade">Jogabilidade: </label>
+              <input type="text" id="jogabilidade" list="lista_jogabilidade">
+              <datalist id="lista_jogabilidade">
+                <option value="FPA">Aventura em primeira pessoa</option>
+                <option value="FPS">Atirador em primeira pessoa</option>
+                <option value="TPS">Atirador em terceira pessoa</option>
+                <option value="RPG">Role Playing Game</option>
+                <option value="MMORPG">Massive Multiplayer Online Role-Playing Game</option>
+                <option value="MMOG">Multi Massive Online Games</option>
+                <option value="MMOSG">Massive Multiplayer Online Social Game</option>
+                <option value="WBMMOG">Web Based Massive Multiplayer Online Games</option>
+                <option value="RTS">Real-time strategy</option>
+                <option value="TBS">Turn-based strategy</option>
+                <option value="MOBA">Multiplayer Online Battle Arena</option>
+                <option value="STH">Stealth</option>
+                <option value="SH">Survival horror</option>
+                <option value="SEU">Shoot 'em up</option>
+                <option value="BEU">Beat 'em up</option>
+                <option value="AVG">Advergame</option>
+                <option value="ADT">Adventure</option>
+                <option value="PZ">Puzzle</option>
+              </datalist>
+            </div>
+            
+            <div id="radios">
+              <div id="plataforma">
+                <fieldset>
+                  <legend>Plataforma</legend>
+
+                  <input type="radio" id="pc" name="plat">
+                  <label for="pc">PC</label><br>
+                  
+                  <input type="radio" id="consoles" name="plat">
+                  <label for="consoles">Consoles</label><br>
+
+                  <input type="radio" id="and" name="plat">
+                  <label for="and">Android</label><br>
+
+                  <input type="radio" id="ios" name="plat">
+                  <label for="ios">IOS</label>
+                </fieldset>
+              </div>
+
+              <div id="jogadores">
+                <fieldset>
+                  <legend>Número de jogadores</legend>
+                  
+                  <input type="radio" id="single" name="num">
+                  <label for="single">Singleplayer</label><br>
+
+                  <input type="radio" id="multi" name="num">
+                  <label for="mutli">Multiplayer</label>
+                </fieldset>
+              </div>
+            </div>
+
+            <div id="enviar"><input type="submit" value="Enviar"></div>
+
+          </form>
+
+        </div>
 
       </main>
           
@@ -62,7 +187,7 @@
             </ul>
           </nav>
       
-        </footer>
+      </footer>
           
     </div>
 
