@@ -18,19 +18,31 @@ https://fernandogfleite.github.io/projeto-jogosbr/inicio.html
 
 Onde pode ser encontrado: sobre.html
 
-Conteudo: nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
+Conteudo: Nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
 
 ## Background
 
 Onde pode ser encontrado: sobre.html
 
-conteudo: Background personalizado com imagens de joysticks
+Conteudo: Background personalizado com imagens de joysticks
+
+## Formulário
+
+Onde pode ser encontrado: cadastro.html
+
+Conteudo: Nele é possivel se cadastar no site inserindo suas informações
+
+## Media Query
+
+Onde pode ser encontrado: em todas as paginas do site
+
+Conteudo: Ela modifica a aparencia e tamanho do conteudo do site de acordo com a necessidade
 
 ## Sobre
 
 Onde pode ser encontrado: sobre.html
 
-Conteudo: nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
+Conteudo: Nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
 
 ---
 
