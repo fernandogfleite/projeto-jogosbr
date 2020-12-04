@@ -38,6 +38,12 @@ Onde pode ser encontrado: em todas as paginas do site
 
 Conteudo: Ela modifica a aparencia e tamanho do conteudo do site de acordo com a necessidade
 
+## Animações
+
+Onde pode ser encontrado: inicio.html
+
+conteudo: fizemos um scroll suave nos links internos e uma animação no h1 da pagina 
+
 ## Sobre
 
 Onde pode ser encontrado: sobre.html
