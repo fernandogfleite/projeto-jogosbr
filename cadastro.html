@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Início - JogosBR</title>
       <link rel="stylesheet" href="css/estilo-inicio.css">
+      <script language="javascript" src="submit.js"></script>
       <link rel="stylesheet" href="css/estilo-cadastro.css">
       <link rel="shortcut icon" href="img/logos/icone.ico" type="image/x-icon">
       <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300;700&display=swap" rel="stylesheet">
@@ -53,7 +54,7 @@
 
           <h1>Cadastro de usuário</h1>
 
-          <form id="cadastro" method="POST"> 
+          <form id="cadastro" method="POST" onsubmit="mySubmit(event)"> 
 
             <h2>Dados Pessoais</h2>
 
@@ -167,7 +168,9 @@
               </div>
             </div>
 
-            <div id="enviar"><input type="submit" value="Enviar"></div>
+            
+            <input type="submit" value="Enviar">
+            
 
           </form>
 
