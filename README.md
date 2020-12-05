@@ -32,6 +32,12 @@ Onde pode ser encontrado: cadastro.html
 
 Conteudo: Nele é possivel se cadastar no site inserindo suas informações
 
+## Validação de formulário
+
+Onde pode ser encontrado: apps/submit.js
+
+contéudo: valida as entradas inseridas no "cadastro.html"
+
 ## Media Query
 
 Onde pode ser encontrado: em todas as paginas do site
