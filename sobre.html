@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo-inicio.css">
+    <link rel="stylesheet" href="css/estilo-sobre.css">
+</head>
+<body>
+  <div class="estrutura">
+
+    <header class="header">
+      <a href="inicio.html" class="logo">
+        <picture>
+          <source media="(max-width: 750px)" srcset="img/logo-p.png" type="image/png">
+          <img src="img/logo.png" alt="Logo">
+        </picture>
+      </a>  
+      <nav>
+        <ul>
+          <li><a href="inicio.html">Início</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="galeria.html">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><button id="btEscuro">Modo Escuro</button></li>
+        </ul>
+      </nav>
+    </header>
+
+
+      
+    <main class="main">
+
+      <table class="t_cont">
+        <caption>Conteúdo do site</caption>
+        <thead>
+          <tr>
+            <th scope="col" colspan="2">Página</th>
+            <th scope="col">Conteúdo</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr>
+            <td colspan="2">Início</td>
+            <td>Página inicial com breve descrição dos conteúdos do site</td>
+          </tr>
+          <tr>
+            <td colspan="2">Notícias</td>
+            <td>Página com a intenção de divulgar novidades sobre os jogos desenvolvidos no Brasil</td>
+          </tr>
+          <tr>
+            <td colspan="2">Galeria</td>
+            <td>Exposição em grade dos jogos brasileiros apresentados</td>
+          </tr>
+          <tr>
+            <td rowspan="4">Jogos</td>
+            <td class="linha_jogos" id="cima">Adore</td>
+            <td rowspan="4">Páginas para apresentar cada jogo brasileiro individualmente</td>
+          </tr>
+          <tr>
+            <td class="linha_jogos">Dandara</td>
+          </tr>
+          <tr>
+            <td class="linha_jogos">Chroma Squad</td>
+          </tr>
+          <tr>
+            <td class="linha_jogos" id="baixo">A Lenda do Heroi</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h1>Nossa equipe:</h1>
+      <div class="cartoes">
+
+        <div class="cartao">
+          <img src="img/fotos-sobre/foto-fernando.jpg" alt="Fernando Leite">
+          <div class="texto-cartao">
+            <p>Fernando Leite</p>
+          </div>
+        </div>
+        
+        <div class="cartao">
+          <img src="img/fotos-sobre/foto-matheus.jpg" alt="José Matheus Santana">
+          <div class="texto-cartao">
+            <p>Matheus Santana</p>
+          </div>
+        </div>
+        
+        <div class="cartao">
+          <img src="img/fotos-sobre/foto-larah.jpeg" alt="Larah Lira">
+          <div class="texto-cartao">
+            <p>Larah Lira</p>
+          </div>
+        </div>
+        
+        <div class="cartao">
+          <img src="img/fotos-sobre/foto-wyvian.jpg" alt="Wyvian Valença">
+          <div class="texto-cartao">
+            <p>Wyvian Valença</p>
+          </div>
+        </div>
+        
+        <div class="cartao">
+          <img src="img/fotos-sobre/foto-ycaro.jpeg" alt="Ycaro Sales">
+          <div class="texto-cartao">
+            <p>Ycaro Sales</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="botaogit">
+        <a target="_blank" href="https://github.com/fernandogfleite/projeto-jogosbr">
+          <button class="button">Repositório no GitHub</button>
+        </a>
+      </div>
+      
+    </main>
+
+    <footer class="footer">
+      <p>Alguns direitos reservados &copy;</p>
+        <nav>
+          <ul>
+            <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+          </ul>
+        </nav>
+    </footer>
+
+  </div>
+  <script src="app/darkMode.js"></script>
+</body>
+</html>
