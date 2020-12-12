@@ -24,37 +24,43 @@ Conteudo: Nessa página comentamos sobre nos, os criadores do site, e sobre o co
 
 Onde pode ser encontrado: sobre.html
 
-Conteudo: Background personalizado com imagens de joysticks
+Conteúdo: Background personalizado com imagens de joysticks
 
 ## Formulário
 
 Onde pode ser encontrado: cadastro.html
 
-Conteudo: Nele é possivel se cadastar no site inserindo suas informações
+Conteúdo: Nele é possivel se cadastar no site inserindo suas informações
 
 ## Validação de formulário
 
 Onde pode ser encontrado: apps/submit.js
 
-contéudo: valida as entradas inseridas no "cadastro.html"
+Conteúdo: valida as entradas inseridas no "cadastro.html"
 
 ## Media Query
 
 Onde pode ser encontrado: em todas as paginas do site
 
-Conteudo: Ela modifica a aparencia e tamanho do conteudo do site de acordo com a necessidade
+Conteúdo: Ela modifica a aparencia e tamanho do conteudo do site de acordo com a necessidade
+
+## Grid bootstrap
+
+onde pode ser encontrado: sobre.html,galeria.html e noticias.html
+
+Conteúdo: botão e cards na página sobre.html; cards na galeria.html
 
 ## Animações
 
 Onde pode ser encontrado: inicio.html
 
-conteudo: fizemos um scroll suave nos links internos e uma animação no h1 da pagina 
+Conteúdo: fizemos um scroll suave nos links internos e uma animação no h1 da pagina 
 
 ## Sobre
 
 Onde pode ser encontrado: sobre.html
 
-Conteudo: Nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
+Conteúdo: Nessa página comentamos sobre nos, os criadores do site, e sobre o conteúdo das paginas
 
 ---
 
